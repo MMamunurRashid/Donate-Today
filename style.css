@@ -36,7 +36,7 @@ p {
 .donate-title h2 {
   font-size: 50px;
 }
-.donate-title p {
+.P-color {
   color: gray;
 }
 .donate-area {
@@ -63,6 +63,7 @@ p {
 .form-section {
   padding-left: 310px;
   padding-right: 310px;
+  padding-bottom: 100px;
 }
 form.form input[type="text"] {
   padding: 10px;
@@ -89,6 +90,7 @@ form.form input[type="text"] {
   padding-left: 100px;
   padding-right: 100px;
   justify-content: space-evenly;
+  padding-bottom: 100px;
 }
 .donate-plan-item {
   width: 100%;
