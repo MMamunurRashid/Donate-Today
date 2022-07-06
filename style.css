@@ -1,0 +1,162 @@
+body {
+  font-family: "Finlandica", sans-serif;
+  margin: 0;
+  border: 3px solid lightslategray;
+}
+h1 {
+  font-size: 80px;
+}
+p {
+  font-size: 20px;
+}
+.header-part {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.064),
+      rgba(0, 0, 0, 0.906)
+    ),
+    url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bg-banner {
+  color: white;
+  text-align: center;
+  padding-left: 230px;
+  padding-right: 230px;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.donate-title {
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.donate-title h2 {
+  font-size: 50px;
+}
+.donate-title p {
+  color: gray;
+}
+.donate-area {
+  display: flex;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  justify-content: space-evenly;
+}
+.five-width {
+  width: 100px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: rgb(249, 249, 249);
+}
+.selected-donate {
+  background-color: rgb(250, 211, 211);
+  border: 2px solid rgb(163, 17, 17);
+}
+.form-section {
+  padding-left: 310px;
+  padding-right: 310px;
+}
+form.form input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: center;
+  width: 100%;
+}
+.form {
+  padding-bottom: 40px;
+}
+.form-button {
+  text-align: center;
+}
+.donate-plan {
+  text-align: center;
+}
+.donate-plan h1 {
+  font-size: 50px;
+}
+.donate-plan-card {
+  display: flex;
+  /* align-items: center; */
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-evenly;
+}
+.donate-plan-item {
+  width: 100%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgb(249, 249, 249);
+}
+.plan-color1 {
+  background-color: lightblue;
+}
+.plan-color2 {
+  background-color: lightgoldenrodyellow;
+}
+.plan-color3 {
+  background-color: lightsalmon;
+}
+.get-update {
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.get-update h1 {
+  font-size: 50px;
+}
+.update-email {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: lightsalmon;
+  border-radius: 15px;
+}
+.get-update-email {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.button-get-update {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+footer {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-bottom: 30px;
+}
+footer h3 {
+  color: brown;
+  font-size: 25px;
+}
+footer p {
+  color: whitesmoke;
+  font-size: 15px;
+}
